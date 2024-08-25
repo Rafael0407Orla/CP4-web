@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.link{
+    display: block;
+    width: fit-content;
+    font-family: Roboto Mono;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+    padding: 24px 56px;
+    border-radius: 40px;
+font-size: 22px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+
+}
