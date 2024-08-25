@@ -7,6 +7,7 @@ import {
 
 import App from './App';
 import Home from './pages/Home';
+import Sobre from './pages/Sobre';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "sobre",
-        element: null
+        element: <Sobre/>
       },
       {
         path: "contato",
