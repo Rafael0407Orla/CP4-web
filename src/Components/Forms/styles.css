@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: fit-content;
+    gap: 32px;
+}
+
+.forms-submit {
+    background-color: #6975E8;
+    color: white;
+    border-radius: 9px;
+    padding: 8px 90px;
+}

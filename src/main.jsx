@@ -8,6 +8,7 @@ import {
 import App from './App';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
+import Contato from './pages/Contato';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "contato",
-        element: null
+        element: <Contato/>
       },
     ]
   },
