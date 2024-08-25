@@ -1,5 +1,12 @@
-.padding{
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+.padding {
   width: auto;
   height: 100%;
   padding: 0 64px 48px 64px;
+}
+
+* {
+  color: #333333;
+  font-family: "Roboto Mono", monospace;
 }

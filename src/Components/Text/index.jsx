@@ -8,7 +8,7 @@ function Text({ type, text }) {
 
   const Typograph = elements[type];
 
-  return Typograph || null;
+  return Typograph;
 }
 
 export default Text;
