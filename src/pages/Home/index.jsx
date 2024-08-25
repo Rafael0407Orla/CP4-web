@@ -14,7 +14,7 @@ function Home() {
             <div className="hero-image-section-textContainer">
             <Text  type={"h1"} text={"Crie seus vídeos online"}/>
             <Text  type={"h4"} text={"Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade."}/>
-             <Button label="Começar agora!" />
+             <Button label="Começar agora!" type={"primary"} />
             </div>
             <img width={"50%"} height={460} src={heroImage}/>
         </div>

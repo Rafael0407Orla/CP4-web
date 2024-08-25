@@ -1,5 +1,6 @@
-.link {
+.primary {
   display: block;
+  height: fit-content;
   width: fit-content;
   color: white;
   background-color: #333333;
@@ -9,5 +10,37 @@
   font-size: 22px;
   font-weight: 500;
   line-height: 18px;
-  text-align: left;
+  text-align: center;
+}
+
+.secondary {
+  height: fit-content;
+
+  display: block;
+  width: fit-content;
+  color: white;
+  background: #6975e8;
+  text-decoration: none;
+  padding: 9px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.tertiary {
+  height: fit-content;
+
+  display: block;
+  width: fit-content;
+  color: #000;
+  text-decoration: none;
+  padding: 9px 24px;
+  border-radius: 6px;
+  border: 1px solid #929292;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
 }
