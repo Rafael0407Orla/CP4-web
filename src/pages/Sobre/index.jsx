@@ -8,6 +8,30 @@ import content2 from "../../assets/plano2content.png";
 import content3 from "../../assets/plano3content.png";
 
 function Sobre() {
+  const cardData = [
+    {
+      text: "Individual",
+      headerColor: "#6975E8",
+      labelButton: "Cadastrar",
+      typeButton: "secondary",
+      img: content1,
+    },
+    {
+      text: "Individual",
+      headerColor: "#fff",
+      labelButton: "Cadastrar",
+      typeButton: "tertiary",
+      img: content2,
+    },
+    {
+      text: "Individual",
+      headerColor: "#fff",
+      labelButton: "Cadastrar",
+      typeButton: "tertiary",
+      img: content3,
+    },
+  ];
+
   return (
     <div className="container">
       <div className="hero-image-section-sobre">
@@ -25,27 +49,9 @@ function Sobre() {
       </div>
       <Text text={"Planos"} type={"h3"} />
       <div className="containerPlanos">
-        <CardsPlanos
-          text={"Individual"}
-          headerColor={"#6975E8"}
-          labelButton={"Cadastrar"}
-          typeButton={"secondary"}
-          img={content1}
-        />
-        <CardsPlanos
-          text={"Individual"}
-          headerColor={"#fff"}
-          labelButton={"Cadastrar"}
-          typeButton={"tertiary"}
-          img={content2}
-        />
-        <CardsPlanos
-          text={"Individual"}
-          headerColor={"#fff"}
-          labelButton={"Cadastrar"}
-          typeButton={"tertiary"}
-          img={content3}
-        />
+        {cardData.map((props, index) => (
+          <CardsPlanos key={index} {...props} />
+        ))}
       </div>
     </div>
   );
